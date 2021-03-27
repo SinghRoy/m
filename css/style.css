@@ -106,7 +106,9 @@ nav ul li a:hover {
   box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
 }
 .portfolio-btn:hover,
-.recent-btn:hover .client-box a:hover {
+.recent-btn:hover,
+.client-box a:hover,
+.contact-input a:hover {
   background-color: #23cdaf;
   transition: all ease 0.2s;
 }
@@ -194,8 +196,9 @@ nav ul li a:hover {
   letter-spacing: 2px;
   font-size: 1.1rem;
 }
-.react-heading h3,
-.Client-heading h3 {
+.recent-heading h3,
+.client-heading h3,
+#contact h3 {
   color: #1c3548;
   font-size: 3rem;
   margin: 0px;
@@ -213,7 +216,7 @@ nav ul li a:hover {
   width: 190px;
   margin-top: -20px;
 }
-#Client {
+#client {
   width: 100%;
   border-top: 1px solid rgba(58, 58, 58, 0.03);
   border-bottom: 1px solid rgba(58, 58, 58, 0.03);
@@ -248,7 +251,7 @@ nav ul li a:hover {
   margin: 20px;
   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
 }
-.client-box {
+.client-box img {
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -285,4 +288,9 @@ nav ul li a:hover {
   width: 140px;
   margin-top: 20px;
   border-radius: 0px;
+}
+.client-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all ease 0.2s;
 }
