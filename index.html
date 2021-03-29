@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatble" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -23,14 +24,20 @@
         <a href="#" class="logo">
           <img src="images/logo -puppys.png" />
         </a>
+        <!-- menu-btn -->
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+        </label>
         <!-- menu -->
         <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Skill</a></li>
-          <li><a href="#">Recent</a></li>
-          <li><a href="#">Client</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#recent">Recent</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+
         <!-- say-hey -->
         <a href="#" class="hey">Say Hi!</a>
       </nav>
@@ -208,7 +215,18 @@
     <!-- contact -->
     <section id="contact">
       <!-- img -->
-      <img src="" alt="" />
+      <img src="images/contact.svg" alt="contact.svg" />
+      <!-- heading -->
+      <h3>Get The Best Project Estimation</h3>
+      <!-- input -->
+      <div class="contact-input">
+        <input type="email" placeholder="Example@gmail.com" />
+        <a href="#">Continue</a>
+      </div>
     </section>
+    <footer>
+      <p>Going To Internet,Ltd Consumer Websites</p>
+      <p>Copyright 2021 - GoingToInternet</p>
+    </footer>
   </body>
 </html>
